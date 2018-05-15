@@ -9,4 +9,5 @@ This app imports an MNIST ConvNet trained in Keras Python, then makes prediction
 ```
 tensorflowjs_converter --input_format keras keras/yourWeights.h5 src/assets
 ```
-https://user-images.githubusercontent.com/29622895/40031567-ec8f3338-580d-11e8-91a4-c31e9119e64a.gif
+
+![file1](https://user-images.githubusercontent.com/29622895/40031567-ec8f3338-580d-11e8-91a4-c31e9119e64a.gif)
