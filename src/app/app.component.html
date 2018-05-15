@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-sm">
+      <h3>Draw Here</h3>
+        <div class="wrapper">
+            <canvas drawable (newImage)="predict($event)"></canvas><br>
+        </div>
+
+        <button class="btn btn-sm btn-warning" (click)="canvas.clear()">Erase</button>
+
+    </div>
+    <div class="col-sm">
+        <h3> Prediction</h3>
+        <chart [data]="predictions"></chart>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
