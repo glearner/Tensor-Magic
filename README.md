@@ -1,8 +1,6 @@
-# Tensorflow.js MNIST Angular Demo
+# Tensor-Magic Angular 
 
-Watch the [screencast](https://angularfirebase.com/lessons)
-
-This demo imports an MNIST ConvNet trained in Keras Python, then makes predictions with TensorFlow.js
+This app imports an MNIST ConvNet trained in Keras Python, then makes predictions with TensorFlow.js
 
 - clone it, cd into it, `npm install && ng serve`
 
